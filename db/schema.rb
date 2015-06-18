@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 20150618223310) do
     t.string   "amazon_id"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
+    t.integer  "rating"
   end
 
 end
